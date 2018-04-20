@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/prescription"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="Prescription" />
+        <item
+            android:id="@+id/goForCheckUp"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="Go For CheckUp" />
+        <item
+            android:id="@+id/nearByDrugStore"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="Near By Drug Store" />
+        <item
+            android:id="@+id/seeMyCertificate"
+            android:icon="@drawable/ic_aspect_ratio_black_24dp"
+            android:title="See My Certificate" />
+        <item
+            android:id="@+id/enterwinessdetails"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Witness Details" />
+    </group>
+
+
+
+</menu>

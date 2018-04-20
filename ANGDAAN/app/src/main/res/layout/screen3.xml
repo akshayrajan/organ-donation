@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="List of organs we can Donate"
+        android:textColor="#33691E"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="510dp"
+        android:src="@drawable/bodyorgans"></ImageView>
+
+    <Button
+        android:id="@+id/donor"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:background="@drawable/mybutton"
+        android:text="Become a Donor"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
